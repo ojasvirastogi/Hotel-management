@@ -1,0 +1,54 @@
+
+{
+"Rooms":[
+    {
+    "id":"R1",
+    "name":"Classic Balcony Room",
+    "src":"/images/room-1.png",
+    "Price":"$500",
+    "description":"A cozy room with a balcony and a view of the city."
+
+    },
+     {
+    "id":"R2",
+    "name":"Superior  Room",
+    "src":"/images/room-2.png",
+    "Price":"$300",
+    "description":"A cozy room with a balcony and a view of the city."
+
+    },
+    {
+    "id":"R3",
+    "name":"Delux Double Room",
+    "src":"/images/room-3.png",
+    "Price":"$900",
+    "description":"A cozy room with a balcony and a view of the city."
+
+    },
+    {
+    "id":"R4",
+    "name":"Superior Double Room",
+    "src":"/images/room-4.png",
+    "Price":"$600",
+    "description":"A cozy room with a balcony and a view of the city."
+
+    },
+    {
+    "id":"R5",
+    "name":"Super Balcony Double Room",
+    "src":"/images/room-5.png",
+    "Price":"$800",
+    "description":"A cozy room with a balcony and a view of the city."
+
+    },
+    {
+    "id":"R6",
+    "name":" Double Room",
+    "src":"/images/room-6.png",
+    "Price":"$550",
+    "description":"A cozy room with a balcony and a view of the city."
+
+    }
+]   
+
+}
