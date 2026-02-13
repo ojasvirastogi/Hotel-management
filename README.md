@@ -1,12 +1,150 @@
-# React + Vite
+# 🏨 Hotel Management System – React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The **Hotel Management System** is a modern and responsive frontend web application built using **React.js**.
 
-## Expanding the ESLint configuration
+It provides a clean UI for exploring hotel rooms, facilities, blogs, testimonials, and contact information.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project focuses on component-based architecture, reusable UI design, and responsive layouts.
+
+---
+
+## 🚀 Features
+
+### 🏠 Home Page
+
+- Hero section with attractive landing UI  
+- Featured rooms preview  
+- Testimonials section  
+- Call-to-action buttons  
+
+---
+
+### 🛏️ Rooms Management
+
+- View all available rooms  
+- Detailed Room Information Page  
+- Room images, pricing, and description  
+- Dynamic data rendering using JSON  
+
+---
+
+### 📰 Blogs Section
+
+- Blog listing page  
+- Reusable Blog Card component  
+- Clean article preview layout  
+
+---
+
+### 🏢 Facilities
+
+- Display hotel facilities  
+- Structured layout for services offered  
+
+---
+
+### 📞 Contact Page
+
+- Contact form UI  
+- Hotel address and information section  
+
+---
+
+### 🧩 Reusable Components
+
+- Navbar  
+- Footer  
+- Room Cards  
+- Blog Cards  
+- Testimonial Cards  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js  
+- **Styling:** CSS  
+- **Routing:** React Router  
+- **Data Handling:** Local JSON (Data.json)  
+- **Build Tool:** Vite  
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Nav.jsx
+│   ├── Footer.jsx
+│   ├── BlogCard.jsx
+│   ├── IndexCard.jsx
+│   └── TestimonialCard.jsx
+│
+├── pages/
+│   ├── Index.jsx
+│   ├── About.jsx
+│   ├── Rooms.jsx
+│   ├── RoomsDetails.jsx
+│   ├── Blogs.jsx
+│   ├── Contact.jsx
+│   └── Facilities.jsx
+│
+├── Data.json
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📱 Responsive Design
+
+- Mobile-friendly layout  
+- Tablet responsive  
+- Desktop optimized UI  
+
+---
+
+## 🔮 Future Enhancements
+
+- Backend booking system integration  
+- Authentication system  
+- Online payment integration  
+- Admin dashboard  
+- Database integration  
+
+---
+
+## 👨‍💻 Author
+
+**Ojasv Rastogi**  
+
